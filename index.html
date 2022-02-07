@@ -11,72 +11,125 @@
     <nav>
 
         <div class="nav-left">
-                    <!-- <svg version="1.1"
-            baseProfile="full"
-            width="300" height="200"
-            xmlns="http://www.w3.org/2000/svg">
-            <rect width="100%" height="100%" fill="black" />
-            <circle cx="150" cy="100" r="90" fill="blue" />
-        </svg> -->
+
             <h1>
                 Space Ecology Workshop
             </h1>
+    
+            <img src="logo.jpg" class=logo alt="">
         </div>
+    
         <div class="nav-right">
-            <button class="animated-border-button">
                 <a href="">ATTEND</a>
-            </button>
-            <button class="animated-border-button">
-                <a href="">SPONSOR</a>
-            </button>
+                <a href="">Sponsor</a>
         </div>
     </nav>
-    <section>
+    <section class="top">
         <div class="left">
-            <h2>Closed Ecological Systems</h2>
-            <button class="animated-border-button">
+            <strong>
+                <span class=SEW>Space Ecology Workshop</span>, the Global Space Ecology Conference & Exhibition, connects private and public sectors enabling new, opportunities in space-earth ventures, advancing the ecology of space, and protecting our planet.
+            </strong>
+            <button class="register-button">
                 <a href="">REGISTER NOW</a>
             </button>
         </div>
         <div class="right">
-            <img class="greenhouse-img" src="space_ecology.jpg" alt="Picture of closed Ecological System">
+            <img class="greenhouse-img" src="https://images.unsplash.com/photo-1531163859947-fa484f6eacd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTc4fHxncmVlbmhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Picture of closed Ecological System">
 
         </div>
     </section>
-    <section class="new-section">
-        <h2>FEATURED MEMBERS</h2>
-        <div class = "card-container">
-            <div class = "member-card box">
-                <img class = "featured-member" src="https://media-exp1.licdn.com/dms/image/C5603AQFsgf0tSlHY_g/profile-displayphoto-shrink_200_200/0/1516965346208?e=1648684800&v=beta&t=wrBB58rbDvix0iF4gof7ioeehqnKy4ptp4tO92zmyAE" alt="Profile picture of featured member">
-                <h3 class="name"> Patrick Grubbs</h3>
-                <p>Succulents and spaceships - in the pursuit of astrobotany.</p>
+    <div class="section-container">
+        <section class="new-section">
+            <h2>FEATURED MEMBERS:</h2>
+            <div class = "card-container">
+                <div class = "info-card box">
+                    <img class = "featured-member" src="https://media-exp1.licdn.com/dms/image/C5603AQGzEUK46WqTtw/profile-displayphoto-shrink_200_200/0/1643308360919?e=1648684800&v=beta&t=yjXNYPda9PxQ-DBDH9G4pJIMJ0Lq6Ej4gShl8hMo9_s" alt="Profile picture of featured member">
+                    <h3 class="name">Kylan Thomson</h3>
+                    <p>Succulents and spaceships - in the pursuit of astrobotany.</p>
+                </div>
+                <div class = "info-card box">
+                    <img class = "featured-member" src="https://media-exp1.licdn.com/dms/image/C4E35AQHGEFOACsfSDQ/profile-framedphoto-shrink_100_100/0/1612394798198?e=1643410800&v=beta&t=mBwIGd1OGi8Xh0pMszJw6oZnxQhQIrPcRbbtv0OcuQ0" alt="Profile picture of featured member">
+                    <h3 class="name">Joe Monk</h3>
+                    <p>Ecological Space Cadet eager to fly to infinity and beyond</p>
+                </div>
+                <div class = "info-card box">
+                    <img class = "featured-member" src="https://media-exp1.licdn.com/dms/image/C5603AQFsgf0tSlHY_g/profile-displayphoto-shrink_200_200/0/1516965346208?e=1648684800&v=beta&t=wrBB58rbDvix0iF4gof7ioeehqnKy4ptp4tO92zmyAE" alt="Profile picture of featured member">
+                    <h3 class="name">Patrick Grubbs</h3>
+                    <p>Succulents and spaceships - in the pursuit of astrobotany.</p>
+                </div>
             </div>
-            <div class = "member-card box">
-                <img class = "featured-member" src="https://media-exp1.licdn.com/dms/image/D4D35AQFbp5Jp74UoNQ/profile-framedphoto-shrink_200_200/0/1637439151392?e=1643047200&v=beta&t=pJ-EEmVK2R3MhJciuksRCYScVK-IKRsfnRNp8a8m-F4" alt="Profile picture of featured member">
-                <h3 class="name"> Kylan Thomson</h3>
-                <p>Succulents and spaceships - in the pursuit of astrobotany.</p>
-            </div>
+        </section>
+    </div>
+
+    <section class="timeline-section">
+        <div class="timeline-left">
+            <img class="timeline-img" src="https://images.unsplash.com/photo-1507207611509-ec012433ff52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjU0fHxtZWV0aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
         </div>
+        <div class="timeline-right">
+                <div class="rightbox">
+                  <div class="rb-container">
+                    <ul class="rb">
+                      <li class="rb-item" ng-repeat="itembx">
+                        <div class="timestamp">
+                          3rd May 2022<br> 7:00 PM
+                        </div>
+                        <div class="item-title">Registration Deadline</div>
+              
+                      </li>
+                      <li class="rb-item" ng-repeat="itembx">
+                        <div class="timestamp">
+                          19th May 2022<br> 3:00 PM
+                        </div>
+                        <div class="item-title">Zoom session with 'Deeze-Nutzzz'</div>
+                      </li>
+                      <li class="rb-item" ng-repeat="itembx">
+                        <div class="timestamp">
+                          17st June 2022<br> 7:00 PM
+                        </div>
+                        <div class="item-title">Worldwide space ecology conference</div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
     </section>
-    <section class="new-section major-themes">
-        <h2>MAJOR THEMES INCLUDE:</h2>
-        <div class = "card-container">
-            <div class = "member-card box">
-                <h3 class="name">Food Systems For Deep Space</h3>
-                <img class = "major-theme-img" src="https://images.unsplash.com/photo-1556490496-45afc7b8b8e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGZhcm1pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Profile picture of featured member">
+
+    <div class="section-container">
+        <section class="new-section major-themes">
+            <h2>MAJOR THEMES INCLUDE:</h2>
+            <div class = "card-container">
+                <div id="theme" class = "info-card box">
+                    <h3 class="theme-title">Food Systems For Deep Space</h3>
+                    <img class = "major-theme-img" src="https://images.unsplash.com/photo-1579113800032-c38bd7635818?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODh8fGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60" alt="Profile picture of featured member">
+                </div>
+
+                <div id="theme" class = "info-card box">
+                    <h3 class="theme-title">Closed Systems For Deep Space</h3>
+                    <img class = "major-theme-img" src="https://images.unsplash.com/photo-1518994603110-1912b3272afd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Z3JlZW5ob3VzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Profile picture of featured member">
+                </div>
+        </section>
+    </div>
+
+    <!-- <section>
+        <div class="wrapper">
+            <div class="parallax-container">
+              <div class="background">
+                <img class="background__image" src="https://s3-ap-southeast-2.amazonaws.com/daily-fire-assets/codepen-assets/building.jpg" />
+              </div>
+              <div class="foreground">
+                <div class="foreground__content">
+                  <h6>Oooo, parallax</h1>
+                </div>
+              </div>
             </div>
-            <!-- <div class="discussion">
-                <h3>
-                   Food Systems For Earth And Space
-                </h3>
-                <h3>
-                    Closed Systems In Space 
-                 </h3>
-            </div> -->
-    </section>
+          </div>
+    </section> -->
+
     <footer>
-
-    </footer>
+        <svg xmlns="http://www.w3.org/2000/svg" width="25%" height="25%" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg>
+    </footer> 
     
 </body>
-</html>c
+</html>
